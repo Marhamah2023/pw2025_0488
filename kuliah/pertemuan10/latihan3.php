@@ -13,6 +13,9 @@
 <body>
     <h3>daftar mahasiswa</h3>
 
+    <a href="tambah.php">tambah data mahasiswa</a>
+    <br><br>
+
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
             <th>#</th>
