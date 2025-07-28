@@ -46,6 +46,10 @@
             <li>
                     <button type="submit" name="login">login</button>
             </li>
+
+            <li>
+                <a href="registrasi.php">tambah user baru</a>
+            </li>
         </ul>
     </form>
 </body>
