@@ -43,14 +43,16 @@
 </head>
 <body>
     <h3>form ubah data mahasiswa</h3>
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?= $m['id']; ?>">
         <ul>
             <li>
+                <input type="hidden" name="gambar_lama" value="<?= $m['gambar']; ?>">
                 <label>
                     gambar : 
-                    <input type="text" name="gambar" autofocus required value="<?= $m['gambar']; ?>">
+                    <input type="file" name="gambar" autofocus class="gambar" onchange="previewImage()">
                 </label>
+                <img src="img/<?= $m['gambar']; ?>" width="120" style="display: block;" class="img-preview">
             </li>
 
             <li>
@@ -86,5 +88,9 @@
             </li>
         </ul>
     </form>
+
+    <script src="js/script.js">
+
+    </script>
 </body>
 </html>

@@ -37,8 +37,9 @@
             <li>
                 <label>
                     gambar : 
-                    <input type="file" name="gambar" autofocus>
+                    <input type="file" name="gambar" autofocus class="gambar" onchange="previewImage()">
                 </label>
+                <img src="img/user.png" width="120" style="display: block;" class="img-preview">
             </li>
 
             <li>
@@ -74,5 +75,9 @@
             </li>
         </ul>
     </form>
+
+    <script src="js/script.js">
+
+    </script>
 </body>
 </html>

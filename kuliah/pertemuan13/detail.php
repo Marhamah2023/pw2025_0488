@@ -32,7 +32,7 @@
     <h3>detail mahasiswa</h3>
 
     <ul>
-        <li><img src="img/<?= $m['gambar']; ?>"></li>
+        <li><img src="img/<?= $m['gambar']; ?>" width="250"></li>
         <li>nrp : <?= $m['nrp']; ?></li>
         <li>nama : <?= $m['nama']; ?></li>
         <li>email : <?= $m['email']; ?></li>
